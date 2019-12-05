@@ -25,8 +25,7 @@ box-sizing:border-box;
 /*Блок с товаром*/
 #block-content{
 	width: 800px;
-	height: 400px;
-	border: 1px solid black;
+	height: auto;
 }
 /*Блок выше верхнего блока*/
 #header-top-block{
@@ -38,7 +37,6 @@ box-sizing:border-box;
 	width: 1035px;
 	height: 160px;
 	margin-top: 10px;
-	border: 1px solid black;
 	clear: both;
 }
 /*Стиль списка навигации*/
@@ -446,6 +444,106 @@ box-sizing:border-box;
 	margin-top: 10px;
 }
 #footer-phone h4{
-	font: 15px sans-serif;
+	font: bold 16px sans-serif;
 	margin: 0;
+}
+#footer-phone h3{
+	font: bold 23px sans-serif;
+	margin: 5px 0;
+}
+#footer-phone p{
+	font: 15px sans-serif;
+	margin: 5px 0;
+}
+.footer-list{
+	width: 200px;
+	float: left;
+	margin-left: 10px;
+}
+.footer-list li{
+	list-style: none;
+	margin-top: 5px;
+}
+.footer-list p{
+	font: bold 14px sans-serif;
+	margin-top: 13px;
+	margin-bottom: 10px;
+	color: #641B74;
+}
+.footer-list a{
+	font: 14px sans-serif;
+	text-decoration: none;
+	color: #7B7B7B; 
+}
+.footer-list a:hover{
+	text-decoration: underline;
+}
+/* стиль нижней разделительной линии*/
+#hr.bottom-line {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.35), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.35), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.35), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.35), rgba(0,0,0,0));
+}
+#nav-breadcrumbs{
+	margin-top: 5px;
+}
+#nav-breadcrumbs a{
+	font: 13px sans-serif;
+	color: #4268B1;
+}
+#nav-breadcrumbs a:hover{
+	color: #E20000;
+}
+#nav-breadcrumbs span{
+	color: #8F868E;
+	font: 14px sans-serif;
+}
+#block-sorting{
+	height: 60px;
+	border-bottom: 1px solid #EEEEEE;
+}
+#block-sorting li{
+	list-style: none;
+}
+#options-list > li{
+	float: left;
+	margin-left: 10px;
+	font: 14px sans-serif;
+}
+#options-list img{
+	margin-top: -4px;
+	cursor: pointer;
+}
+#options-list{
+	margin-top: 10px;
+	margin-left: -10px;
+}
+#select-sort{
+	color: #748996;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#sorting-list{
+	border: 1px solid #A3C0D2;
+	position: absolute;
+	padding-top: 5px;
+	width: 200px;
+	height: 113px;
+	background-color: white;
+	display: none;
+}
+#sorting-list li{
+	margin-top: 3px;
+	margin-left: 10px;
+}
+#sorting-list a{
+	font: 15px sans-serif;
+	text-decoration: none;
+	color: black;
+}
+#sorting-list a:hover{
+	text-decoration: underline;
 }

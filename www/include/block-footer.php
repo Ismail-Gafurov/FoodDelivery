@@ -1,4 +1,6 @@
 <div id="block-footer">
+ <!-- линия разделения сверху -->
+    <hr class="bottom-line">
 	<div id="footer-phone">
     	<h4>Служба поддержки</h4>
         <h3>8 (800) 100-12-34</h3>

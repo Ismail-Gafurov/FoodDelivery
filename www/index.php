@@ -23,7 +23,26 @@
         ?>
     </div>
 
-	<div id="block-content"></div>
+	<div id="block-content">
+    	<div id="block-sorting">
+        	<p id="nav-breadcrumbs"><a href="index.php">Главная страница</a> \ <span>Все блюда</span></p>
+            <ul id="options-list">
+            	<li>Вид: </li>
+                <li><img id="style-grid" src="/www/images/grid3.png" /></li>
+                <li><img id="style-list" src="/www/images/grid.png" /></li>
+                <li>Сортировать:</li>
+                <li><a id="select-sort">Без сортировки</a>
+                	<ul id="sorting-list">
+                    	<li><a href="">От дешовых к дорогим</a></li>
+                        <li><a href="">От дорогих к дешовым</a></li>
+                        <li><a href="">Популярное</a></li>
+                        <li><a href="">Новинки</a></li>
+                        <li><a href="">От А до Я</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
 	<?php
     	include ("include/block-footer.php");
     ?>
